@@ -1,1 +1,0 @@
-nohup ./bin/flume-ng agent -n agent -c conf -f conf/flume-conf.properties >/dev/null 2>&1 &

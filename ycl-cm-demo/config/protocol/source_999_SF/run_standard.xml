@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<PolicyFile Name="standard" Description="输入/输出协议映射关系描述">
-	<source_999_SF>
-		<Item DataSrc="DELIVERY_SF" ProtocolSrc="DELIVERY_SF" DstOut="WA_SOURCE_0027"/>
-	</source_999_SF>
-</PolicyFile>
