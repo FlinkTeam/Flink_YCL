@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MESSAGE>
+  <DATASET name="WA_COMMON_010017" rmk="数据文件索引信息">
+    <DATA>
+      <DATASET name="WA_COMMON_010013" rmk="BCP文件格式信息">
+       <DATA>
+         <ITEM key="I010032" val="\t" rmk="列分隔符（缺少值时默认为制表符\t）"/>
+         <ITEM key="I010033" val="\n" rmk="行分隔符（缺少默认为换行符）"/>
+         <ITEM key="A010004" val="IpChangeList" rmk="数据集代码"/>
+         <ITEM key="B050016" val="" rmk="数据来源"/>
+         <ITEM key="F010008" val="" rmk="数据采集地"/>
+         <ITEM key="I010038" val="1" rmk="数据起始行，可选项，填写默认为第1行"/>
+         <ITEM key="I010039" val="UTF-8" rmk="可选项，默认为UTF-8，BCP文件编码格式（采用不带格式的编码方式，如：UTF-8无BOM）"/>
+         <DATASET name="WA_COMMON_010014" rmk="BCP数据文件信息">
+           <DATA>
+             <ITEM key="H040003" val="" rmk="文件路径"/>
+             <ITEM key="H010020" val="" rmk="文件名"/>
+             <ITEM key="I010034" val="" rmk="记录行数"/>
+           </DATA>
+         </DATASET>
+         <DATASET name="WA_COMMON_010015" rmk="BCP文件数据结构">
+           <DATA>
+             <ITEM name="DataID" key="Z002600" val="数据标识ID" rmk=""/>
+             <ITEM name="DeviceID" key="H010018" val="设备ID" rmk=""/>
+             <ITEM name="ClueID" key="H010005" val="线索ID/日志查询标识" rmk=""/>
+             <ITEM name="ProtocolID" key="Z002736" val="协议代码" rmk=""/>
+             <ITEM name="SrcIP" key="" val="源IPv4地址" rmk=""/>
+             <ITEM name="SrcPort" key="" val="源IPv4端口" rmk=""/>
+             <ITEM name="SRC_IPV6" key="F020010" val="源IPv6地址" rmk=""/>
+             <ITEM name="SRC_PORT_V6" key="F020012" val="源IPv6端口" rmk=""/>
+             <ITEM name="DstIP" key="" val="目的IPv4地址" rmk=""/>
+             <ITEM name="DstPort" key="" val="目的IPv4端口" rmk=""/>
+             <ITEM name="DST_IPV6" key="F020011" val="目的IPv6地址" rmk=""/>
+             <ITEM name="DST_PORT_V6" key="F020013" val="目的IPv6端口" rmk=""/>
+             <ITEM name="VlanID" key="Z002606" val="虚拟局域网id" rmk=""/>
+             <ITEM name="Timestamp" key="H010014" val="截获时间(上线时间)" rmk=""/>
+             <ITEM name="CallingID" key="B050004" val="主叫号码" rmk=""/>
+             <ITEM name="Account" key="Z002619" val="认证账号" rmk=""/>
+             <ITEM name="ProxyType" key="Z002F21" val="代理类型" rmk=""/>
+             <ITEM name="ProxyDomain" key="H010033" val="代理提供商" rmk=""/>
+             <ITEM name="ProxyPort" key="Z002080" val="代理服务端口" rmk=""/>
+             <ITEM name="DataType" key="Z002738" val="数据协议类型" rmk=""/>
+             <ITEM name="IDCServerIPType" key="Z002502" val="服务器IP本地标识" rmk=""/>
+             <ITEM name="IDCClientIPType" key="Z002503" val="客户端IP本地标识" rmk=""/>
+             <ITEM name="Abstract" key="Z002801" val="摘要" rmk=""/>
+             <ITEM name="DataSource" key="Z002620" val="数据来源名称" rmk=""/>
+             <ITEM name="PhoneNum" key="Z002101" val="手机号码" rmk=""/>
+             <ITEM name="Imsi" key="B020007" val="国际移动用户标识号" rmk=""/>
+             <ITEM name="Bsid" key="F030002" val="基站号/AP编号" rmk=""/>
+             <ITEM name="CoA" key="Z002202" val="Care Of Address 转交地址" rmk=""/>
+             <ITEM name="HomeAgent" key="Z002610" val="归属代理" rmk=""/>
+             <ITEM name="HomeAddress" key="Z002611" val="归属地址" rmk=""/>
+             <ITEM name="PCFIP" key="Z002504" val="分组控制IP" rmk=""/>
+             <ITEM name="PDSNIP" key="Z002505" val="分组数据服务节点IP" rmk=""/>
+             <ITEM name="CellNum" key="Z002604" val="小区号" rmk=""/>
+             <ITEM name="RadioType" key="Z002605" val="电信分为2000（CDMA 1x）和1x-EV（CDMA 1x EV-DO）" rmk=""/>
+             <ITEM name="Imei" key="C050001" val="设备号" rmk=""/>
+             <ITEM name="ZipPath" key="Z002731" val="文件保存路径" rmk=""/>
+             <ITEM name="Terminal" key="Z002203" val="终端" rmk=""/>
+             <ITEM name="TerminalType" key="Z002204" val="终端类型" rmk=""/>
+             <ITEM name="OS" key="C020004" val="操作系统名" rmk=""/>
+             <ITEM name="OSVersion" key="C020005" val="操作系统版本" rmk=""/>
+             <ITEM name="CorrelationID" key="Z002603" val="关联ID" rmk=""/>
+             <ITEM name="Client_IP" key="Z002506" val="客户端IP地址" rmk=""/>
+             <ITEM name="ISPID" key="B020001" val="运营商标识" rmk=""/>
+             <ITEM name="CLUE_SRC_SYS" key="H010006" val="线索布控/日志查询源" rmk=""/>
+             <ITEM name="CLUE_DST_SYS" key="H010007" val="线索布控目的地/日志产生源" rmk=""/>
+             <ITEM name="SECURITY_SOFTWARE_ORGCODE" key="G020013" val="安全管理系统厂家组织机构代码" rmk=""/>
+             <ITEM name="COMPANY_NAME" key="G020014" val="厂商名称" rmk=""/>
+             <ITEM name="AUTH_TYPE" key="B040021" val="认证类型" rmk=""/>
+             <ITEM name="UP_TEID" key="F030013" val="上行隧道号" rmk=""/>
+             <ITEM name="DOWN_TEID" key="F030014" val="下行隧道号" rmk=""/>
+             <ITEM name="COLLECT_PLACE" key="F010008" val="采集地" rmk=""/>
+             <ITEM name="DATA_TYPE" key="H010002" val="数据类型，区分各个协议的大协议ID" rmk=""/>
+             <ITEM name="AUTH_ACCOUNT" key="B040022" val="认证账号" rmk=""/>
+             <ITEM name="DATA_SOURCE" key="B050016" val="数据源" rmk=""/>
+             <ITEM name="PROTOCOL_ID" key="Z002746" val="NAT协议号" rmk=""/>
+             <ITEM name="IN_SrcIP" key="F020005" val="" rmk=""/>
+             <ITEM name="IN_SrcPort" key="F020007" val="" rmk=""/>
+             <ITEM name="IN_DstIP" key="Z002539" val="内网目的IP" rmk=""/>
+             <ITEM name="IN_DstPort" key="Z002554" val="内网目的端口" rmk=""/>
+             <ITEM name="OUT_SrcIP" key="F020004" val="" rmk=""/>
+             <ITEM name="OUT_SrcPort" key="F020006" val="" rmk=""/>
+             <ITEM name="OUT_DstIP" key="Z002540" val="外网目的IP" rmk=""/>
+             <ITEM name="OUT_DstPort" key="Z002555" val="外网目的端口" rmk=""/>
+             <ITEM name="DEVICE" key="Z002227" val="设备名称" rmk=""/>
+           </DATA>
+         </DATASET>
+       </DATA>
+       <DATA>
+         <ITEM key="I010032" val="\t" rmk="列分隔符（缺少值时默认为制表符\t）"/>
+         <ITEM key="I010033" val="\n" rmk="行分隔符（缺少默认为换行符）"/>
+         <ITEM key="A010004" val="radius" rmk="数据集代码"/>
+         <ITEM key="B050016" val="" rmk="数据来源"/>
+         <ITEM key="F010008" val="" rmk="数据采集地"/>
+         <ITEM key="I010038" val="1" rmk="数据起始行，可选项，填写默认为第1行"/>
+         <ITEM key="I010039" val="UTF-8" rmk="可选项，默认为UTF-8，BCP文件编码格式（采用不带格式的编码方式，如：UTF-8无BOM）"/>
+         <DATASET name="WA_COMMON_010014" rmk="BCP数据文件信息">
+           <DATA>
+             <ITEM key="H040003" val="" rmk="文件路径"/>
+             <ITEM key="H010020" val="" rmk="文件名"/>
+             <ITEM key="I010034" val="" rmk="记录行数"/>
+           </DATA>
+         </DATASET>
+         <DATASET name="WA_COMMON_010015" rmk="BCP文件数据结构">
+           <DATA>
+             <ITEM name="DataID" key="Z002600" val="数据标识ID" rmk=""/>
+             <ITEM name="DeviceID" key="H010018" val="设备ID" rmk=""/>
+             <ITEM name="ClueID" key="H010005" val="线索ID/日志查询标识" rmk=""/>
+             <ITEM name="ProtocolID" key="Z002736" val="协议代码" rmk=""/>
+             <ITEM name="SrcIP" key="F020004" val="源IPv4地址" rmk=""/>
+             <ITEM name="SrcPort" key="F020006" val="源IPv4端口" rmk=""/>
+             <ITEM name="SRC_IPV6" key="F020010" val="源IPv6地址" rmk=""/>
+             <ITEM name="SRC_PORT_V6" key="F020012" val="源IPv6端口" rmk=""/>
+             <ITEM name="DstIP" key="F020005" val="目的IPv4地址" rmk=""/>
+             <ITEM name="DstPort" key="F020007" val="目的IPv4端口" rmk=""/>
+             <ITEM name="DST_IPV6" key="F020011" val="目的IPv6地址" rmk=""/>
+             <ITEM name="DST_PORT_V6" key="F020013" val="目的IPv6端口" rmk=""/>
+             <ITEM name="VlanID" key="Z002606" val="虚拟局域网id" rmk=""/>
+             <ITEM name="Timestamp" key="H010014" val="截获时间(上线时间)" rmk=""/>
+             <ITEM name="CallingID" key="B050004" val="主叫号码" rmk=""/>
+             <ITEM name="Account" key="Z002619" val="认证账号" rmk=""/>
+             <ITEM name="ProxyType" key="Z002F21" val="代理类型" rmk=""/>
+             <ITEM name="ProxyDomain" key="H010033" val="代理提供商" rmk=""/>
+             <ITEM name="ProxyPort" key="Z002080" val="代理服务端口" rmk=""/>
+             <ITEM name="DataType" key="Z002738" val="数据协议类型" rmk=""/>
+             <ITEM name="IDCServerIPType" key="Z002502" val="服务器IP本地标识" rmk=""/>
+             <ITEM name="IDCClientIPType" key="Z002503" val="客户端IP本地标识" rmk=""/>
+             <ITEM name="Abstract" key="Z002801" val="摘要" rmk=""/>
+             <ITEM name="DataSource" key="Z002620" val="数据来源名称" rmk=""/>
+             <ITEM name="PhoneNum" key="Z002101" val="手机号码" rmk=""/>
+             <ITEM name="Imsi" key="B020007" val="国际移动用户标识号" rmk=""/>
+             <ITEM name="Bsid" key="F030002" val="基站号/AP编号" rmk=""/>
+             <ITEM name="CoA" key="Z002202" val="Care Of Address 转交地址" rmk=""/>
+             <ITEM name="HomeAgent" key="Z002610" val="归属代理" rmk=""/>
+             <ITEM name="HomeAddress" key="Z002611" val="归属地址" rmk=""/>
+             <ITEM name="PCFIP" key="Z002504" val="分组控制IP" rmk=""/>
+             <ITEM name="PDSNIP" key="Z002505" val="分组数据服务节点IP" rmk=""/>
+             <ITEM name="CellNum" key="Z002604" val="小区号" rmk=""/>
+             <ITEM name="RadioType" key="Z002605" val="电信分为2000（CDMA 1x）和1x-EV（CDMA 1x EV-DO）" rmk=""/>
+             <ITEM name="Imei" key="C050001" val="设备号" rmk=""/>
+             <ITEM name="ZipPath" key="Z002731" val="文件保存路径" rmk=""/>
+             <ITEM name="Terminal" key="Z002203" val="终端" rmk=""/>
+             <ITEM name="TerminalType" key="Z002204" val="终端类型" rmk=""/>
+             <ITEM name="OS" key="C020004" val="操作系统名" rmk=""/>
+             <ITEM name="OSVersion" key="C020005" val="操作系统版本" rmk=""/>
+             <ITEM name="CorrelationID" key="Z002603" val="关联ID" rmk=""/>
+             <ITEM name="Client_IP" key="Z002506" val="客户端IP地址" rmk=""/>
+             <ITEM name="ISPID" key="B020001" val="运营商标识" rmk=""/>
+             <ITEM name="CLUE_SRC_SYS" key="H010006" val="线索布控/日志查询源" rmk=""/>
+             <ITEM name="CLUE_DST_SYS" key="H010007" val="线索布控目的地/日志产生源" rmk=""/>
+             <ITEM name="SECURITY_SOFTWARE_ORGCODE" key="G020013" val="安全管理系统厂家组织机构代码" rmk=""/>
+             <ITEM name="COMPANY_NAME" key="G020014" val="厂商名称" rmk=""/>
+             <ITEM name="AUTH_TYPE" key="B040021" val="认证类型" rmk=""/>
+             <ITEM name="UP_TEID" key="F030013" val="上行隧道号" rmk=""/>
+             <ITEM name="DOWN_TEID" key="F030014" val="下行隧道号" rmk=""/>
+             <ITEM name="COLLECT_PLACE" key="F010008" val="采集地" rmk=""/>
+             <ITEM name="DATA_TYPE" key="H010002" val="数据类型，区分各个协议的大协议ID" rmk=""/>
+             <ITEM name="AUTH_ACCOUNT" key="B040022" val="认证账号" rmk=""/>
+             <ITEM name="DATA_SOURCE" key="B050016" val="数据源" rmk=""/>
+             <ITEM name="IP Path" key="Z002716" val="IP包保存路径" rmk=""/>
+             <ITEM name="PROTOCOL" key="H010001" val="小协议ID号" rmk=""/>
+             <ITEM name="CalledStationID" key="B050009" val="被叫号码" rmk=""/>
+             <ITEM name="SessionID" key="Z002638" val="标识ID" rmk=""/>
+             <ITEM name="Time" key="H010030" val="时长" rmk=""/>
+             <ITEM name="FramedIP" key="F020001" val="被分配IP" rmk=""/>
+             <ITEM name="MAC" key="C040002" val="MAC地址" rmk=""/>
+             <ITEM name="RadiusOptType" key="Z002F23" val="操作类型" rmk=""/>
+             <ITEM name="Password" key="B040005" val="ADSL用户拨号密码" rmk=""/>
+             <ITEM name="ACT_TYPE_019" key="Z002706" val="行为类别" rmk=""/>
+             <ITEM name="APP_TYPE_019" key="Z002707" val="应用类型" rmk=""/>
+             <ITEM name="OPT_TYPE_019" key="Z002708" val="操作类型" rmk=""/>
+           </DATA>
+         </DATASET>
+       </DATA>
+       <DATA>
+         <ITEM key="I010032" val="\t" rmk="列分隔符（缺少值时默认为制表符\t）"/>
+         <ITEM key="I010033" val="\n" rmk="行分隔符（缺少默认为换行符）"/>
+         <ITEM key="A010004" val="gtp" rmk="数据集代码"/>
+         <ITEM key="B050016" val="" rmk="数据来源"/>
+         <ITEM key="F010008" val="" rmk="数据采集地"/>
+         <ITEM key="I010038" val="1" rmk="数据起始行，可选项，填写默认为第1行"/>
+         <ITEM key="I010039" val="UTF-8" rmk="可选项，默认为UTF-8，BCP文件编码格式（采用不带格式的编码方式，如：UTF-8无BOM）"/>
+         <DATASET name="WA_COMMON_010014" rmk="BCP数据文件信息">
+           <DATA>
+             <ITEM key="H040003" val="" rmk="文件路径"/>
+             <ITEM key="H010020" val="" rmk="文件名"/>
+             <ITEM key="I010034" val="" rmk="记录行数"/>
+           </DATA>
+         </DATASET>
+         <DATASET name="WA_COMMON_010015" rmk="BCP文件数据结构">
+           <DATA>
+             <ITEM name="DataID" key="Z002600" val="数据标识ID" rmk=""/>
+             <ITEM name="DeviceID" key="H010018" val="设备ID" rmk=""/>
+             <ITEM name="ClueID" key="H010005" val="线索ID/日志查询标识" rmk=""/>
+             <ITEM name="ProtocolID" key="Z002736" val="协议代码" rmk=""/>
+             <ITEM name="SrcIP" key="F020004" val="源IPv4地址" rmk=""/>
+             <ITEM name="SrcPort" key="F020006" val="源IPv4端口" rmk=""/>
+             <ITEM name="SRC_IPV6" key="F020010" val="源IPv6地址" rmk=""/>
+             <ITEM name="SRC_PORT_V6" key="F020012" val="源IPv6端口" rmk=""/>
+             <ITEM name="DstIP" key="F020005" val="目的IPv4地址" rmk=""/>
+             <ITEM name="DstPort" key="F020007" val="目的IPv4端口" rmk=""/>
+             <ITEM name="DST_IPV6" key="F020011" val="目的IPv6地址" rmk=""/>
+             <ITEM name="DST_PORT_V6" key="F020013" val="目的IPv6端口" rmk=""/>
+             <ITEM name="VlanID" key="Z002606" val="虚拟局域网id" rmk=""/>
+             <ITEM name="Timestamp" key="H010014" val="截获时间(上线时间)" rmk=""/>
+             <ITEM name="CallingID" key="B050004" val="主叫号码" rmk=""/>
+             <ITEM name="Account" key="Z002619" val="认证账号" rmk=""/>
+             <ITEM name="ProxyType" key="Z002F21" val="代理类型" rmk=""/>
+             <ITEM name="ProxyDomain" key="H010033" val="代理提供商" rmk=""/>
+             <ITEM name="ProxyPort" key="Z002080" val="代理服务端口" rmk=""/>
+             <ITEM name="DataType" key="Z002738" val="数据协议类型" rmk=""/>
+             <ITEM name="IDCServerIPType" key="Z002502" val="服务器IP本地标识" rmk=""/>
+             <ITEM name="IDCClientIPType" key="Z002503" val="客户端IP本地标识" rmk=""/>
+             <ITEM name="Abstract" key="Z002801" val="摘要" rmk=""/>
+             <ITEM name="DataSource" key="Z002620" val="数据来源名称" rmk=""/>
+             <ITEM name="PhoneNum" key="Z002101" val="手机号码" rmk=""/>
+             <ITEM name="Imsi" key="B020007" val="国际移动用户标识号" rmk=""/>
+             <ITEM name="Bsid" key="F030002" val="基站号/AP编号" rmk=""/>
+             <ITEM name="CoA" key="Z002202" val="Care Of Address 转交地址" rmk=""/>
+             <ITEM name="HomeAgent" key="Z002610" val="归属代理" rmk=""/>
+             <ITEM name="HomeAddress" key="Z002611" val="归属地址" rmk=""/>
+             <ITEM name="PCFIP" key="Z002504" val="分组控制IP" rmk=""/>
+             <ITEM name="PDSNIP" key="Z002505" val="分组数据服务节点IP" rmk=""/>
+             <ITEM name="CellNum" key="Z002604" val="小区号" rmk=""/>
+             <ITEM name="RadioType" key="Z002605" val="电信分为2000（CDMA 1x）和1x-EV（CDMA 1x EV-DO）" rmk=""/>
+             <ITEM name="Imei" key="C050001" val="设备号" rmk=""/>
+             <ITEM name="ZipPath" key="Z002731" val="文件保存路径" rmk=""/>
+             <ITEM name="Terminal" key="Z002203" val="终端" rmk=""/>
+             <ITEM name="TerminalType" key="Z002204" val="终端类型" rmk=""/>
+             <ITEM name="OS" key="C020004" val="操作系统名" rmk=""/>
+             <ITEM name="OSVersion" key="C020005" val="操作系统版本" rmk=""/>
+             <ITEM name="CorrelationID" key="Z002603" val="关联ID" rmk=""/>
+             <ITEM name="Client_IP" key="Z002506" val="客户端IP地址" rmk=""/>
+             <ITEM name="ISPID" key="B020001" val="运营商标识" rmk=""/>
+             <ITEM name="CLUE_SRC_SYS" key="H010006" val="线索布控/日志查询源" rmk=""/>
+             <ITEM name="CLUE_DST_SYS" key="H010007" val="线索布控目的地/日志产生源" rmk=""/>
+             <ITEM name="SECURITY_SOFTWARE_ORGCODE" key="G020013" val="安全管理系统厂家组织机构代码" rmk=""/>
+             <ITEM name="COMPANY_NAME" key="G020014" val="厂商名称" rmk=""/>
+             <ITEM name="AUTH_TYPE" key="B040021" val="认证类型" rmk=""/>
+             <ITEM name="UP_TEID" key="F030013" val="上行隧道号" rmk=""/>
+             <ITEM name="DOWN_TEID" key="F030014" val="下行隧道号" rmk=""/>
+             <ITEM name="COLLECT_PLACE" key="F010008" val="采集地" rmk=""/>
+             <ITEM name="DATA_TYPE" key="H010002" val="数据类型，区分各个协议的大协议ID" rmk=""/>
+             <ITEM name="AUTH_ACCOUNT" key="B040022" val="认证账号" rmk=""/>
+             <ITEM name="DATA_SOURCE" key="B050016" val="数据源" rmk=""/>
+             <ITEM name="IP Path" key="Z002716" val="IP包保存路径" rmk=""/>
+             <ITEM name="PROTOCOL" key="H010001" val="小协议ID号" rmk=""/>
+             <ITEM name="APN" key="Z002645" val=" 接入点名称" rmk=""/>
+             <ITEM name="Rai" key="Z002646" val=" 路由区域识别码" rmk=""/>
+             <ITEM name="ChargingID" key="Z002647" val=" 计费ID" rmk=""/>
+             <ITEM name="FramedIP" key="F020001" val="被分配IP" rmk=""/>
+             <ITEM name="baoliu" key="" val="MAC地址" rmk=""/>
+             <ITEM name="GTPOptType" key="Z002F23" val="操作类型" rmk=""/>
+             <ITEM name="baoliu" key="" val="ADSL用户拨号密码" rmk=""/>
+             <ITEM name="ActType" key="Z002706" val="行为类别" rmk=""/>
+             <ITEM name="AppType" key="Z002707" val="应用类型" rmk=""/>
+             <ITEM name="OptType" key="Z002708" val="操作类型" rmk=""/>
+           </DATA>
+         </DATASET>
+       </DATA>
+       <DATA>
+         <ITEM key="I010032" val="\t" rmk="列分隔符（缺少值时默认为制表符\t）"/>
+         <ITEM key="I010033" val="\n" rmk="行分隔符（缺少默认为换行符）"/>
+         <ITEM key="A010004" val="a11" rmk="数据集代码"/>
+         <ITEM key="B050016" val="" rmk="数据来源"/>
+         <ITEM key="F010008" val="" rmk="数据采集地"/>
+         <ITEM key="I010038" val="1" rmk="数据起始行，可选项，填写默认为第1行"/>
+         <ITEM key="I010039" val="UTF-8" rmk="可选项，默认为UTF-8，BCP文件编码格式（采用不带格式的编码方式，如：UTF-8无BOM）"/>
+         <DATASET name="WA_COMMON_010014" rmk="BCP数据文件信息">
+           <DATA>
+             <ITEM key="H040003" val="" rmk="文件路径"/>
+             <ITEM key="H010020" val="" rmk="文件名"/>
+             <ITEM key="I010034" val="" rmk="记录行数"/>
+           </DATA>
+         </DATASET>
+         <DATASET name="WA_COMMON_010015" rmk="BCP文件数据结构">
+           <DATA>
+             <ITEM name="DataID" key="Z002600" val="数据标识ID" rmk=""/>
+             <ITEM name="DeviceID" key="H010018" val="设备ID" rmk=""/>
+             <ITEM name="ClueID" key="H010005" val="线索ID/日志查询标识" rmk=""/>
+             <ITEM name="ProtocolID" key="Z002736" val="协议代码" rmk=""/>
+             <ITEM name="SrcIP" key="F020004" val="源IPv4地址" rmk=""/>
+             <ITEM name="SrcPort" key="F020006" val="源IPv4端口" rmk=""/>
+             <ITEM name="SRC_IPV6" key="F020010" val="源IPv6地址" rmk=""/>
+             <ITEM name="SRC_PORT_V6" key="F020012" val="源IPv6端口" rmk=""/>
+             <ITEM name="DstIP" key="F020005" val="目的IPv4地址" rmk=""/>
+             <ITEM name="DstPort" key="F020007" val="目的IPv4端口" rmk=""/>
+             <ITEM name="DST_IPV6" key="F020011" val="目的IPv6地址" rmk=""/>
+             <ITEM name="DST_PORT_V6" key="F020013" val="目的IPv6端口" rmk=""/>
+             <ITEM name="VlanID" key="Z002606" val="虚拟局域网id" rmk=""/>
+             <ITEM name="Timestamp" key="H010014" val="截获时间(上线时间)" rmk=""/>
+             <ITEM name="CallingID" key="B050004" val="主叫号码" rmk=""/>
+             <ITEM name="Account" key="Z002619" val="认证账号" rmk=""/>
+             <ITEM name="ProxyType" key="Z002F21" val="代理类型" rmk=""/>
+             <ITEM name="ProxyDomain" key="H010033" val="代理提供商" rmk=""/>
+             <ITEM name="ProxyPort" key="Z002080" val="代理服务端口" rmk=""/>
+             <ITEM name="DataType" key="Z002738" val="数据协议类型" rmk=""/>
+             <ITEM name="IDCServerIPType" key="Z002502" val="服务器IP本地标识" rmk=""/>
+             <ITEM name="IDCClientIPType" key="Z002503" val="客户端IP本地标识" rmk=""/>
+             <ITEM name="Abstract" key="Z002801" val="摘要" rmk=""/>
+             <ITEM name="DataSource" key="Z002620" val="数据来源名称" rmk=""/>
+             <ITEM name="PhoneNum" key="Z002101" val="手机号码" rmk=""/>
+             <ITEM name="Imsi" key="B020007" val="国际移动用户标识号" rmk=""/>
+             <ITEM name="Bsid" key="F030002" val="基站号/AP编号" rmk=""/>
+             <ITEM name="CoA" key="Z002202" val="Care Of Address 转交地址" rmk=""/>
+             <ITEM name="HomeAgent" key="Z002610" val="归属代理" rmk=""/>
+             <ITEM name="HomeAddress" key="Z002611" val="归属地址" rmk=""/>
+             <ITEM name="PCFIP" key="Z002504" val="分组控制IP" rmk=""/>
+             <ITEM name="PDSNIP" key="Z002505" val="分组数据服务节点IP" rmk=""/>
+             <ITEM name="CellNum" key="Z002604" val="小区号" rmk=""/>
+             <ITEM name="RadioType" key="Z002605" val="电信分为2000（CDMA 1x）和1x-EV（CDMA 1x EV-DO）" rmk=""/>
+             <ITEM name="Imei" key="C050001" val="设备号" rmk=""/>
+             <ITEM name="ZipPath" key="Z002731" val="文件保存路径" rmk=""/>
+             <ITEM name="Terminal" key="Z002203" val="终端" rmk=""/>
+             <ITEM name="TerminalType" key="Z002204" val="终端类型" rmk=""/>
+             <ITEM name="OS" key="C020004" val="操作系统名" rmk=""/>
+             <ITEM name="OSVersion" key="C020005" val="操作系统版本" rmk=""/>
+             <ITEM name="CorrelationID" key="Z002603" val="关联ID" rmk=""/>
+             <ITEM name="Client_IP" key="Z002506" val="客户端IP地址" rmk=""/>
+             <ITEM name="ISPID" key="B020001" val="运营商标识" rmk=""/>
+             <ITEM name="CLUE_SRC_SYS" key="H010006" val="线索布控/日志查询源" rmk=""/>
+             <ITEM name="CLUE_DST_SYS" key="H010007" val="线索布控目的地/日志产生源" rmk=""/>
+             <ITEM name="SECURITY_SOFTWARE_ORGCODE" key="G020013" val="安全管理系统厂家组织机构代码" rmk=""/>
+             <ITEM name="COMPANY_NAME" key="G020014" val="厂商名称" rmk=""/>
+             <ITEM name="AUTH_TYPE" key="B040021" val="认证类型" rmk=""/>
+             <ITEM name="UP_TEID" key="F030013" val="上行隧道号" rmk=""/>
+             <ITEM name="DOWN_TEID" key="F030014" val="下行隧道号" rmk=""/>
+             <ITEM name="COLLECT_PLACE" key="F010008" val="采集地" rmk=""/>
+             <ITEM name="DATA_TYPE" key="H010002" val="数据类型，区分各个协议的大协议ID" rmk=""/>
+             <ITEM name="AUTH_ACCOUNT" key="B040022" val="认证账号" rmk=""/>
+             <ITEM name="DATA_SOURCE" key="B050016" val="数据源" rmk=""/>
+             <ITEM name="IP Path" key="Z002716" val="IP包保存路径" rmk=""/>
+             <ITEM name="PROTOCOL" key="H010001" val="小协议ID号" rmk=""/>
+             <ITEM name="baoliu" key="" val="" rmk=""/>
+             <ITEM name="baoliu" key="" val="" rmk=""/>
+             <ITEM name="baoliu" key="" val="" rmk=""/>
+             <ITEM name="FramedIP" key="F020001" val="被分配IP" rmk=""/>
+             <ITEM name="baoliu" key="" val="" rmk=""/>
+             <ITEM name="A11OptType" key="Z002F23" val="操作类型" rmk=""/>
+             <ITEM name="baoliu" key="" val="" rmk=""/>
+             <ITEM name="ActType" key="Z002706" val="行为类别" rmk=""/>
+             <ITEM name="AppType" key="Z002707" val="应用类型" rmk=""/>
+             <ITEM name="OptType" key="Z002708" val="操作类型" rmk=""/>
+           </DATA>
+         </DATASET>
+       </DATA>
+      </DATASET>
+    </DATA>
+  </DATASET> 
+</MESSAGE>

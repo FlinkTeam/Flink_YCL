@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration Name="phone_rule_config"  Description="The configuration of data pre process system">
+	<Module Name="pr" DataSet="WA_MFORENSICS_010100">
+		<Item Name="city_field" Value="Z002062"/>
+		<Item Name="op_field" Value="Z002063"/>
+		<Item Name="phone_field" Value="Z002102"/>
+	</Module>
+	<Module Name="pr" DataSet="WA_MFORENSICS_010300">
+		<Item Name="city_field" Value="Z002062"/>
+		<Item Name="op_field" Value="Z002063"/>
+		<Item Name="phone_field" Value="Z002102"/>
+	</Module>
+</Configuration>

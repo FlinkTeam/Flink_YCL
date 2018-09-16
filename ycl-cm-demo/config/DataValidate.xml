@@ -1,0 +1,2500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<PolicyFile Name="DataValid" Description="数据有效性检查">
+	<!--this is datavalidate XML!-->
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130909" Priority="0" ModifyTime="1521612130909" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B030005">
+			<Expression Function="dv_card">
+				<Param Name="element" Value="B030005" Dic="identitycard"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130911" Priority="0" ModifyTime="1521612130911" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="C040002">
+			<Expression Function="dv_mac">
+				<Param Name="element" Value="C040002" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="C040006">
+			<Expression Function="dv_mac">
+				<Param Name="element" Value="C040006" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="C050001">
+			<Expression Function="dv_imei">
+				<Param Name="element" Value="C050001" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130913" Priority="0" ModifyTime="1521612130913" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020007">
+			<Expression Function="dv_imsi">
+				<Param Name="element" Value="B020007" Dic="imsi"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130915" Priority="0" ModifyTime="1521612130915" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010500" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130917" Priority="0" ModifyTime="1521612130917" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B070003">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B070003" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010600" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130919" Priority="0" ModifyTime="1521612130919" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010030">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="H010030"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B070003">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B070003" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010700" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130921" Priority="0" ModifyTime="1521612130921" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B070003">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B070003" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010800" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130924" Priority="0" ModifyTime="1521612130924" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B070003">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B070003" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010900" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130926" Priority="0" ModifyTime="1521612130926" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_011000" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130928" Priority="0" ModifyTime="1521612130928" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130930" Priority="0" ModifyTime="1521612130930" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B010015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B010015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B030005">
+			<Expression Function="dv_card">
+				<Param Name="element" Value="B030005" Dic="identitycard"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="C050001">
+			<Expression Function="dv_imei">
+				<Param Name="element" Value="C050001" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130933" Priority="0" ModifyTime="1521612130933" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B010015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B010015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B030005">
+			<Expression Function="dv_card">
+				<Param Name="element" Value="B030005" Dic="identitycard"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130937" Priority="0" ModifyTime="1521612130937" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="D010019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="D010019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="D010020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="D010020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130939" Priority="0" ModifyTime="1521612130939" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B010015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B010015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B030005">
+			<Expression Function="dv_card">
+				<Param Name="element" Value="B030005" Dic="identitycard"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020500" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130942" Priority="0" ModifyTime="1521612130942" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020600" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130945" Priority="0" ModifyTime="1521612130945" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020700" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130947" Priority="0" ModifyTime="1521612130947" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H100047">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="H100047"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H100048">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="H100048"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H100049">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="H100049"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020800" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130950" Priority="0" ModifyTime="1521612130950" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_030100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130952" Priority="0" ModifyTime="1521612130952" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H100051">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="H100051"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H100052">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="H100052"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H100053">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="H100053"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H100054">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="H100054"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B010015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B010015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B030005">
+			<Expression Function="dv_card">
+				<Param Name="element" Value="B030005" Dic="identitycard"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_030200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130955" Priority="0" ModifyTime="1521612130955" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B010015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B010015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B030005">
+			<Expression Function="dv_card">
+				<Param Name="element" Value="B030005" Dic="identitycard"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_030300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130958" Priority="0" ModifyTime="1521612130958" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H100047">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="H100047"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H100048">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="H100048"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H100049">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="H100049"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_030400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130961" Priority="0" ModifyTime="1521612130961" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_030500" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130963" Priority="0" ModifyTime="1521612130963" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_040100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130965" Priority="0" ModifyTime="1521612130965" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B010015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B010015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B030005">
+			<Expression Function="dv_card">
+				<Param Name="element" Value="B030005" Dic="identitycard"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_040200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130968" Priority="0" ModifyTime="1521612130968" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B010015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B010015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B030005">
+			<Expression Function="dv_card">
+				<Param Name="element" Value="B030005" Dic="identitycard"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_040300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130971" Priority="0" ModifyTime="1521612130971" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_040400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130974" Priority="0" ModifyTime="1521612130974" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_040500" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130976" Priority="0" ModifyTime="1521612130976" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_050100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130978" Priority="0" ModifyTime="1521612130978" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F020014">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="F020014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F020014">
+			<Expression Function="dv_ip">
+				<Param Name="element" Value="F020014" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_050200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130980" Priority="0" ModifyTime="1521612130980" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_050300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130982" Priority="0" ModifyTime="1521612130982" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_050400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130984" Priority="0" ModifyTime="1521612130984" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_060100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130986" Priority="0" ModifyTime="1521612130986" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B010015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B010015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B030005">
+			<Expression Function="dv_card">
+				<Param Name="element" Value="B030005" Dic="identitycard"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_060200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130989" Priority="0" ModifyTime="1521612130989" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010001">
+			<Expression Function="dv_lon">
+				<Param Name="element" Value="F010001" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010002">
+			<Expression Function="dv_lat">
+				<Param Name="element" Value="F010002" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_060300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130991" Priority="0" ModifyTime="1521612130991" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="C010007">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="C010007"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010010">
+			<Expression Function="dv_lon">
+				<Param Name="element" Value="F010010" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010011">
+			<Expression Function="dv_lat">
+				<Param Name="element" Value="F010011" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010012">
+			<Expression Function="dv_lon">
+				<Param Name="element" Value="F010012" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010013">
+			<Expression Function="dv_lat">
+				<Param Name="element" Value="F010013" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_060400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130994" Priority="0" ModifyTime="1521612130994" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_070100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130996" Priority="0" ModifyTime="1521612130996" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B010015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B010015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020005">
+			<Expression Function="dv_mobile">
+				<Param Name="element" Value="B020005" Dic="phonenumber"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B030005">
+			<Expression Function="dv_card">
+				<Param Name="element" Value="B030005" Dic="identitycard"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_070200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612130999" Priority="0" ModifyTime="1521612130999" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="C010007">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="C010007"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="C010006">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="C010006"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_070300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612131001" Priority="0" ModifyTime="1521612131001" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_070400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612131003" Priority="0" ModifyTime="1521612131003" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="C010007">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="C010007"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_070500" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612131006" Priority="0" ModifyTime="1521612131006" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_080100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612131008" Priority="0" ModifyTime="1521612131008" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F020001">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="F020001"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F020001">
+			<Expression Function="dv_ip">
+				<Param Name="element" Value="F020001" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F030011">
+			<Expression Function="dv_mac">
+				<Param Name="element" Value="F030011" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_080200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612131010" Priority="0" ModifyTime="1521612131010" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="C040007">
+			<Expression Function="dv_mac">
+				<Param Name="element" Value="C040007" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_080300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612131012" Priority="0" ModifyTime="1521612131012" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="C040006">
+			<Expression Function="dv_mac">
+				<Param Name="element" Value="C040006" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="C040007">
+			<Expression Function="dv_mac">
+				<Param Name="element" Value="C040007" Dic=""/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_090100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521612131014" Priority="0" ModifyTime="1521612131014" CreateUserid="0">
+		<NormalizedField Element="B050015">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050018">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050019">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050019"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050020">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B050020"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B040033">
+			<Expression Function="dv_number">
+				<Param Name="element" Value="B040033"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="H010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="F010008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050014">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dv_must">
+				<Param Name="element" Value="B050016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+</PolicyFile>

@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<PolicyFile Description="数据填值的配置文件" Name="DataMapping">
+	<Normalizing CreateTime="" CreateUserid="" DDataSet="WA_SOURCE_0027" Id="" IsDefault="" ModifyTime="" Name="string" NameSpace="JRPT003" SDataSet="DELIVERY_SF">
+		<NormalizedField Element="Z002492">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="Z002492"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H030008">
+			<Expression Function="dm_time">
+				<Param Fmt="%Y-%m-%d %H:%M:%S" Name="element" Value="H030008"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020012">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="B020012"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="Z002400">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="Z002400"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020010">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="B020010"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="Z002150">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="Z002150"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020015">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="B020015"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="Z002147">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="Z002147"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B020013">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="B020013"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="Z002146">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="Z002146"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="Z0027UB">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="Z0027UB"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="Z0027TD">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="Z0027TD"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="Z0027TF">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="Z0027TF"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="Z0027TB">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="Z0027TB"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="Z002798">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="Z002798"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B010018">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="B010018"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="C010006">
+			<Expression Function="dm_copy">
+				<Param Name="element" Value="C010006"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="G020014">
+			<Expression Function="dm_assignment">
+				<Param Name="const" Value="北京锐安科技有限公司"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="F010008">
+			<Expression Function="dm_assignment">
+				<Param Name="const" Value="110000"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010002">
+			<Expression Function="dm_assignment">
+				<Param Name="const" Value="124"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="B050016">
+			<Expression Function="dm_assignment">
+				<Param Name="const" Value="999"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010001">
+			<Expression Function="dm_assignment">
+				<Param Name="const" Value="1240003"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="H010014">
+			<Expression Function="dm_time">
+				<Param Fmt="systemtime" Name="element" Value="H010014"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="Z002896">
+			<Expression Function="dm_assignment">
+				<Param Name="const" Value="110000000117"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+</PolicyFile>

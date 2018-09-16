@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<PolicyFile Name="DataValid" Description="数据有效性检查">
+	<!--this is datavalidate XML!-->
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872465" Priority="0" ModifyTime="1521601872465" CreateUserid="0">
+		<NormalizedField Element="500030B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="335" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<!--归一化案件编号-->
+		<NormalizedField Element="100050I">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="I050001"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872466" Priority="0" ModifyTime="1521601872466" CreateUserid="0">
+		<NormalizedField Element="200040C">
+			<Expression Function="du_mac">
+				<Param Name="element" Value="C040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="100050C">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="C050001"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化蓝牙MAC地址-->
+		<NormalizedField Element="600040C">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="C040006"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872466" Priority="0" ModifyTime="1521601872466" CreateUserid="0">
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="700020B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B020007"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010600" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872467" Priority="0" ModifyTime="1521601872467" CreateUserid="0">
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010700" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872467" Priority="0" ModifyTime="1521601872467" CreateUserid="0">
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_010800" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872468" Priority="0" ModifyTime="1521601872468" CreateUserid="0">
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_011000" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872468" Priority="0" ModifyTime="1521601872468" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872469" Priority="0" ModifyTime="1521601872469" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="320040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040023"/>
+			</Expression>
+		</NormalizedField>
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="335" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="100050C">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="C050001"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872469" Priority="0" ModifyTime="1521601872469" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="320040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040023"/>
+			</Expression>
+		</NormalizedField>
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="335" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化接收方uid-->
+		<NormalizedField Element="400060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060004"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872470" Priority="0" ModifyTime="1521601872470" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化接收方uid-->
+		<NormalizedField Element="400060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060004"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化群号码-->
+		<NormalizedField Element="710040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040017"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872470" Priority="0" ModifyTime="1521601872470" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="320040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040023"/>
+			</Expression>
+		</NormalizedField>
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="335" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<!--归一化接收方uid-->
+		<NormalizedField Element="400060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060004"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化群号码-->
+		<NormalizedField Element="710040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040017"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020500" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872471" Priority="0" ModifyTime="1521601872471" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020600" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872471" Priority="0" ModifyTime="1521601872471" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020700" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872471" Priority="0" ModifyTime="1521601872471" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化接收方uid-->
+		<NormalizedField Element="400060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060004"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_020800" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872472" Priority="0" ModifyTime="1521601872472" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_030100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872472" Priority="0" ModifyTime="1521601872472" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="320040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040023"/>
+			</Expression>
+		</NormalizedField>
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="335" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_030200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872473" Priority="0" ModifyTime="1521601872473" CreateUserid="0">
+		<NormalizedField Element="200010G">
+			<Expression Function="du_url">
+				<Param Name="element" Value="G010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="320040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040023"/>
+			</Expression>
+		</NormalizedField>
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="335" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化接收方uid-->
+		<NormalizedField Element="400060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060004"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_030300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872473" Priority="0" ModifyTime="1521601872473" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化相关人账号-->
+		<NormalizedField Element="700001H">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="H100007"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化接收方uid-->
+		<NormalizedField Element="400060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060004"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_030400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872474" Priority="0" ModifyTime="1521601872474" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化接收方uid-->
+		<NormalizedField Element="400060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060004"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_030500" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872474" Priority="0" ModifyTime="1521601872474" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_040100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872474" Priority="0" ModifyTime="1521601872474" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="320040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040023"/>
+			</Expression>
+		</NormalizedField>
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="335" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_040200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872475" Priority="0" ModifyTime="1521601872475" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="320040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040023"/>
+			</Expression>
+		</NormalizedField>
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="335" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_040300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872475" Priority="0" ModifyTime="1521601872475" CreateUserid="0">
+		<NormalizedField Element="200030H">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="H030002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="300030H">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="H030003"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_040400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872476" Priority="0" ModifyTime="1521601872476" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_040500" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872476" Priority="0" ModifyTime="1521601872476" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_050100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872476" Priority="0" ModifyTime="1521601872476" CreateUserid="0">
+		<NormalizedField Element="200010G">
+			<Expression Function="du_url">
+				<Param Name="element" Value="G010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_050200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872477" Priority="0" ModifyTime="1521601872477" CreateUserid="0">
+		<NormalizedField Element="200010G">
+			<Expression Function="du_url">
+				<Param Name="element" Value="G010002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_050300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872477" Priority="0" ModifyTime="1521601872477" CreateUserid="0">
+		<NormalizedField Element="200010G">
+			<Expression Function="du_url">
+				<Param Name="element" Value="G010002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_050400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872477" Priority="0" ModifyTime="1521601872477" CreateUserid="0">
+		<NormalizedField Element="200010G">
+			<Expression Function="du_url">
+				<Param Name="element" Value="G010002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_060100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872478" Priority="0" ModifyTime="1521601872478" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="320040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040023"/>
+			</Expression>
+		</NormalizedField>
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="335" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_060200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872478" Priority="0" ModifyTime="1521601872478" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_060300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872478" Priority="0" ModifyTime="1521601872478" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_060400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872479" Priority="0" ModifyTime="1521601872479" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_070100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872479" Priority="0" ModifyTime="1521601872479" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="320040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040023"/>
+			</Expression>
+		</NormalizedField>
+		<!--注释属性-->
+		<NormalizedField Element="500020B">
+			<Expression Function="du_mobile">
+				<Param Name="element" Value="B020005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="111" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<NormalizedField Element="500030B">
+			<Expression Function="du_card">
+				<Param Name="element" Value="B030005"/>
+			</Expression>
+			<Conditions Rel="OR">
+				<Condition Key="B030004" Value="335" Opr="Equal" Fmt=""/>
+			</Conditions>
+		</NormalizedField>
+		<!--归一化用户uid-->
+		<NormalizedField Element="300040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040003"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_070200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872480" Priority="0" ModifyTime="1521601872480" CreateUserid="0">
+		<NormalizedField Element="200010G">
+			<Expression Function="du_url">
+				<Param Name="element" Value="G010002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化软件产品ID-->
+		<NormalizedField Element="610020C">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="C020016"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_070300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872480" Priority="0" ModifyTime="1521601872480" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_070400" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872480" Priority="0" ModifyTime="1521601872480" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+		<NormalizedField Element="200060B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B060002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_070500" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872481" Priority="0" ModifyTime="1521601872481" CreateUserid="0">
+		<NormalizedField Element="200040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040002"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_080100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872481" Priority="0" ModifyTime="1521601872481" CreateUserid="0">
+		<NormalizedField Element="110030F">
+			<Expression Function="du_mac">
+				<Param Name="element" Value="F030011"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_080200" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872481" Priority="0" ModifyTime="1521601872481" CreateUserid="0">
+		<!--归一化对方蓝牙MAC地址-->
+		<NormalizedField Element="700040C">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="C040007"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_080300" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872482" Priority="0" ModifyTime="1521601872482" CreateUserid="0">
+		<!--归一化蓝牙MAC地址-->
+		<NormalizedField Element="600040C">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="C040006"/>
+			</Expression>
+		</NormalizedField>
+		<!--归一化对方蓝牙MAC地址-->
+		<NormalizedField Element="700040C">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="C040007"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+	<Normalizing NameSpace="YCL003" DataSet="WA_MFORENSICS_090100" Id="139024430434" Name="String" IsDefault="0" CreateTime="1521601872482" Priority="0" ModifyTime="1521601872482" CreateUserid="0">
+		<!--归一化姓名-->
+		<NormalizedField Element="620040B">
+			<Expression Function="du_normal">
+				<Param Name="element" Value="B040026"/>
+			</Expression>
+		</NormalizedField>
+	</Normalizing>
+</PolicyFile>
